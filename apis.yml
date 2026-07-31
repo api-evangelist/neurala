@@ -1,7 +1,23 @@
 aid: neurala
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neurala.png
 name: Neurala
-description: Neurala is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Neurala is a Boston-based edge AI company whose Lifelong Deep Neural Network (L-DNN)
+  technology is delivered as an embeddable, customized software library for on-device computer vision
+  and visual inspection. Its stack trains on minimal data and runs entirely at the edge without cloud
+  dependency, keeping data private on the device. Neurala partners directly with hardware and software
+  makers rather than publishing a public self-service API; no public developer API, SDK registry
+  package, OpenAPI, or /.well-known discovery surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/neurala/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Computer Vision
+- Machine Learning
+- Edge AI
+- Deep Learning
+- Visual Inspection
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://neurala.com/
+- type: Blog
+  url: https://www.neurala.com/blog/
+- type: Support
+  url: https://www.neurala.com/integration/#contact
+- type: TermsOfService
+  url: https://www.neurala.com/legal/terms/
+- type: PrivacyPolicy
+  url: https://www.neurala.com/legal/privacy/
+- type: DomainSecurity
+  url: security/neurala-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
