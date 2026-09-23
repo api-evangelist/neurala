@@ -1,0 +1,29 @@
+# Front Door AI Index — neurala — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: neurala
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: neurala.com
+  final_host: www.neurala.com
+  ownership: own
+  owner: neurala
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 18
+  host_score: 18
+  density: 26.83
+  words: 671
+  tiers:
+    agentic: 1
+    core: 17
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 14
+    neural network: 2
+    deep learning: 1
+    inference: 1
+    smart: 1
